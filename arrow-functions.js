@@ -20,7 +20,8 @@ let sum =addTwoNumbers(3,5);
 console.log(sum);
 
 // Single Line Arrow Function With Parameters
-const addTwoNumbers2=(a,b) => a+b;
+const addTwoNumbers2 = (a,b) => a+b;
+
 let sum2 =addTwoNumbers(3,5);
 console.log(sum2);
 
@@ -28,6 +29,7 @@ console.log(sum2);
 const saySmth = message=>console.log(message);
 saySmth("Hello there!")
 
+//no parametrs at all
 const sayHello = () => console.log ('Hello');
  sayHello()
 
@@ -37,4 +39,4 @@ const returnMultipleLines = () => (
     This is a multiple string!
     </p>`
 )
-console.log(returnMultipleLines);
+console.log(returnMultipleLines());
